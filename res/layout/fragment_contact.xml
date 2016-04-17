@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <LinearLayout
+        android:id="@+id/layout_CONTENT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:padding="@dimen/content_padding" >
+
+        <LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:orientation="vertical"
+            android:padding="@dimen/table_padding" >
+
+            <RelativeLayout
+                android:id="@+id/layout_friend_req_add"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:layout_marginBottom="@dimen/row_margin"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+
+                <TextView
+                    style="@style/text_black_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_profile_nickname_normal"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_friend_request_to_add"/>
+
+                <ImageView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/go" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_add_friend"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:layout_marginBottom="@dimen/row_margin"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+
+                <TextView
+                    style="@style/text_black_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_profile_gender_normal"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_add_friend"/>
+
+                <ImageView
+                   android:src="@drawable/go"
+                   
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    />
+                 <!--android:id="@+id/iv_icon"  -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_creat_group"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:layout_marginBottom="@dimen/row_margin"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+
+                <TextView
+                    style="@style/text_black_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_profile_age_normal"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_creat_group" />
+
+                <ImageView
+                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/go" />
+                 <!--android:id="@+id/iv_icon"  -->
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layout_group_set"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:layout_marginBottom="@dimen/row_margin"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+
+                <TextView
+                    style="@style/text_black_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_profile_region_normal"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_group_set"/>
+
+
+                <ImageView
+                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/go" />
+                 <!--android:id="@+id/iv_icon"  -->
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+            <!-- android:id="@+id/layout_TABLE" -->
+
+            <RelativeLayout
+                android:id="@+id/layout_credit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+		    <ExpandableListView
+		        android:id="@+id/list_friend_group"
+		        android:layout_width="match_parent"
+		        android:layout_height="242dip"
+		        android:visibility="gone"
+		        android:cacheColorHint="#0000"
+		        android:divider="@color/blend_item_divider_color"
+		        android:dividerHeight="0.5dip"
+		        android:fadingEdge="none"
+		        android:listSelector="@android:color/transparent" />
+                
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

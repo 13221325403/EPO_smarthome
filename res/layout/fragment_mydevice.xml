@@ -1,0 +1,137 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_CONTENT"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:background="@color/background" >
+
+    <!-- 按键 -->
+    
+
+        <LinearLayout
+            android:id="@+id/layout_TABLE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:orientation="vertical"
+            android:padding="@dimen/table_padding" >
+
+            <RelativeLayout
+                android:id="@+id/layout_smartconfig"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:layout_marginBottom="@dimen/row_margin"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+
+                <TextView
+                    style="@style/text_black_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_profile_nickname_normal"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/smartconfig"/>
+
+                <ImageView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:src="@drawable/go" />
+            </RelativeLayout>
+			<RelativeLayout
+                android:id="@+id/layout_add_device"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/row_height"
+                android:layout_marginBottom="@dimen/row_margin"
+                android:background="@drawable/row_selector"
+                android:paddingLeft="@dimen/row_padding_left"
+                android:paddingRight="@dimen/row_padding_right" >
+
+                <TextView
+                    style="@style/text_black_18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:drawableLeft="@drawable/ic_profile_gender_normal"
+                    android:drawablePadding="4dp"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    android:text="@string/text_add_device"/>
+
+                <ImageView
+                   android:src="@drawable/go"                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:duplicateParentState="true"
+                    android:gravity="center_vertical"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    <LinearLayout
+        	android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/table_margin"
+            android:background="@color/table_background"
+            android:padding="@dimen/table_padding" >
+
+        <Button
+            android:id="@+id/setupBtnRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "刷新"
+            android:background="@color/mydevice_background" />
+
+
+    </LinearLayout>
+    <!-- 按键 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="10dp" >
+
+        <TextView
+            style="@style/text_black_18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="设备列表"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/devListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="150dp" >
+    </LinearLayout>
+
+</LinearLayout>

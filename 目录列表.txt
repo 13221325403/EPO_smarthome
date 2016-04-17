@@ -1,0 +1,173 @@
+文件夹 PATH 列表
+卷序列号为 901A4EE5 3CD2:D088
+C:.
+│  072008 (1).png
+│  072008 (2).png
+│  072008 (3).png
+│  072008 (4).png
+│  javaapk.com文件列表生成工具.bat
+│  更多源码打包下载.url
+│  本源码使用帮助.txt
+│  目录列表.txt
+│  
+└─Qunakao
+    │  .classpath
+    │  .project
+    │  AndroidManifest.xml
+    │  project.properties
+    │  
+    ├─.settings
+    │      org.eclipse.core.resources.prefs
+    │      org.eclipse.jdt.core.prefs
+    │      
+    ├─assets
+    │              
+    ├─gen
+    │  └─mobi
+    │      └─kuaidian
+    │          └─qunakao
+    │                  BuildConfig.java
+    │                  R.java
+    │                  
+    ├─libs
+    │      android-support-v4.jar
+    │      
+    ├─res
+    │  ├─color
+    │  │      text_service_color.xml
+    │  │      
+    │  ├─drawable
+    │  │      button_backward_selector.xml
+    │  │      button_caution_selector.xml
+    │  │      ic_message_selector.xml
+    │  │      ic_profile_selector.xml
+    │  │      ic_service_selector.xml
+    │  │      ic_setting_selector.xml
+    │  │      row_selector.xml
+    │  │      
+    │  ├─drawable-hdpi
+    │  │      a108.png
+    │  │      a120.png
+    │  │      a144.png
+    │  │      a16.png
+    │  │      a160.png
+    │  │      a18.png
+    │  │      a180.png
+    │  │      a20.png
+    │  │      a24.png
+    │  │      a240.png
+    │  │      a30.png
+    │  │      a32.png
+    │  │      a320.png
+    │  │      a36.png
+    │  │      a42.png
+    │  │      a48.png
+    │  │      a480.png
+    │  │      a54.png
+    │  │      a60.png
+    │  │      a66.png
+    │  │      a72.png
+    │  │      a720.png
+    │  │      a78.png
+    │  │      a84.png
+    │  │      a90.png
+    │  │      a96.png
+    │  │      advertising_default.jpg
+    │  │      advertising_default_1.jpg
+    │  │      advertising_default_2.jpg
+    │  │      advertising_default_3.jpg
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-ldpi
+    │  ├─drawable-mdpi
+    │  │      ic_launcher.png
+    │  │      
+    │  ├─drawable-xhdpi
+    │  │      back_arrow.png
+    │  │      bg_titlebar.png
+    │  │      bg_wireframe_top.9.png
+    │  │      go.png
+    │  │      go2.png
+    │  │      ic_launcher.png
+    │  │      ic_message_normal.png
+    │  │      ic_message_selected.png
+    │  │      ic_profile_age_normal.png
+    │  │      ic_profile_age_pressed.png
+    │  │      ic_profile_credit_normal.png
+    │  │      ic_profile_credit_pressed.png
+    │  │      ic_profile_gender_normal.png
+    │  │      ic_profile_gender_pressed.png
+    │  │      ic_profile_health_normal.png
+    │  │      ic_profile_health_pressed.png
+    │  │      ic_profile_nickname_normal.png
+    │  │      ic_profile_nickname_pressed.png
+    │  │      ic_profile_normal.png
+    │  │      ic_profile_region_normal.png
+    │  │      ic_profile_region_pressed.png
+    │  │      ic_profile_selected.png
+    │  │      ic_profile_tags_normal.png
+    │  │      ic_profile_tags_pressed.png
+    │  │      ic_service_gene_query.png
+    │  │      ic_service_normal.png
+    │  │      ic_service_selected.png
+    │  │      ic_setting_about.png
+    │  │      ic_setting_account.png
+    │  │      ic_setting_general.png
+    │  │      ic_setting_normal.png
+    │  │      ic_setting_notification.png
+    │  │      ic_setting_privacy.png
+    │  │      ic_setting_selected.png
+    │  │      ic_viewpager_noselect.png
+    │  │      ic_viewpager_select.png
+    │  │      
+    │  ├─layout
+    │  │      activity_about.xml
+    │  │      activity_start.xml
+    │  │      activity_title.xml
+    │  │      fragment_profile.xml
+    │  │      fragment_service.xml
+    │  │      fragment_session.xml
+    │  │      fragment_setting.xml
+    │  │      layout_titlebar.xml
+    │  │      list_item_viewpager.xml
+    │  │      view_tab.xml
+    │  │      
+    │  └─values
+    │          colors.xml
+    │          dimens.xml
+    │          strings.xml
+    │          styles.xml
+    │          
+    └─src
+        └─app
+            ├─ui
+            │  │  BaseActivity.java
+            │  │  BaseFragment.java
+            │  │  FragmentCallback.java
+            │  │  FragmentInterface.java
+            │  │  MainActivity.java
+            │  │  TitleActivity.java
+            │  │  
+            │  ├─activity
+            │  │  │  StartActivity.java
+            │  │  │  
+            │  │  ├─profile
+            │  │  └─setting
+            │  │          AboutActivity.java
+            │  │          
+            │  ├─adapter
+            │  │      ViewPaperAdapter.java
+            │  │      
+            │  ├─fragment
+            │  │      ProfileFragment.java
+            │  │      ServiceFragment.java
+            │  │      SessionFragment.java
+            │  │      SettingFragment.java
+            │  │      
+            │  └─widget
+            │          TabView.java
+            │          
+            └─util
+                    DialogUtils.java
+                    FragmentUtils.java
+                    

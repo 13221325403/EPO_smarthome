@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--   主程序相关术语定义 	 -->
+    <string name="app_name">E博-EPO</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="app_version">v0.1.0</string>    
+    <string name="action_settings">Settings</string>
+    
+    <string name="text_tab_mydevice">本地设备</string>
+    <string name="text_tab_friendlist">通信录</string>
+    <string name="text_tab_market">E家服务</string>
+    <string name="text_tab_setting">个人中心</string>
+    
+    
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_setup_dev">SetupDevActivity</string>
+    <string name="title_activity_dev_view">DevViewActivity</string>
+     
+    <!-- 设备配置相关术语 -->
+    <string name="tvApSsidTitle">SSID: </string>
+    <string name="tvPasswordTitle">密码: </string>
+    <string name="switchIsSsidHiddenTitle">WIFI信号是否隐藏：</string>
+    <string name="btnConfirmTitle">配置</string>
+    <string name="smartconfig">智能配置</string>
+    
+    <string name="text_add_device">添加设备</string>
+    
+    
+    <!--   主程序通信录界面文字定义 	 -->
+    <string name="text_friend_request_to_add">新好友请求</string>
+    <string name="text_add_friend">添加好友</string>
+    <string name="text_creat_group">创建群组</string>
+    <string name="text_group_set">群组管理</string>
+    
+    
+    
+    <string name="text_account">账号与安全</string>
+    <string name="text_notification">通知与消息</string>
+    <string name="text_privacy">隐私</string>
+    <string name="text_general">通用</string>
+    <string name="text_about">关于E博</string>
+    
+    <string name="no">取消</string>
+    <string name="title">标题内容</string>
+    <string name="line">line</string>
+    <string name="gouplist">群组列表</string>
+    <string name="friendlist">好友列表</string>
+    
+    
+    <string name="button_backward">返回</string>
+    <string name="button_submit">提交</string>
+    <string name="text_age">年龄</string>
+    <string name="text_gender">性别</string>
+    <string name="text_username">用户名</string>
+    <string name="text_nickname">昵称</string>
+    <string name="text_place">地区</string>
+    <string name="text_learning">我想学/考</string>
+    <string name="text_education">学历层次</string>
+    <string name="text_speciality">专业</string>
+    <string name="text_credit">我的积分</string>
+    <string name="text_official_website">官方网站</string>
+    <string name="text_rate_app">去评分</string>
+    <string name="text_about_help">帮助</string>
+    <string name="text_about_feedback">反馈</string>
+    <string name="text_about_update">检查更新</string>
+    <string name="text_company">去哪考 版权所有 由武汉快点科技提供技术支持</string>
+    <string name="text_copyright">Copyright &#169; 2014-2020 Shizhenbao All Rights Reserved.</string>
+    <string name="text_exit">退&#160;出</string>
+
+</resources>

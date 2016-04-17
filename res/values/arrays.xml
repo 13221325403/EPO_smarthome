@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="groups">
+        <item>天龙八部</item>
+        <item>射雕英雄传</item>
+        <item>神雕侠侣</item>
+    </string-array>
+    
+    <string-array name="tianlongbabu">
+        <item>萧峰</item>
+        <item>段誉</item>
+        <item>虚竹</item>
+    </string-array>
+    
+    <string-array name="tianlongbabu_detail">
+        <item>降龙十八掌,打狗棒法,龙爪手</item>
+        <item>凌波微步,六脉神剑</item>
+        <item>北冥神功,小无相功,天山折梅手,天山六阳掌</item>
+    </string-array>
+    
+    <string-array name="shediaoyingxiongzhuan">
+        <item>郭靖</item>
+        <item>黄蓉</item>
+        <item>王重阳</item>
+        <item>黄药师</item>
+        <item>欧阳锋</item>
+        <item>一灯</item>
+        <item>洪七公</item>
+    </string-array>
+    
+    <string-array name="shediaoyingxiongzhuan_detail">
+        <item>降龙十八掌,九阴真经,天罡北斗阵,双手互搏,空明拳</item>
+        <item>碧波掌法,落英神剑掌,玉箫剑法,兰花拂穴手</item>
+        <item>先天功,金雁功,全真剑法,一剑化三清</item>
+        <item>桃花影落飞神剑，碧海潮生按玉箫</item>
+        <item>蛤蟆功,瞬息千里,神驼雪山掌,透骨打穴法</item>
+        <item>一阳指,先天功</item>
+        <item>降龙十八掌,打狗棒法,伏虎拳</item>
+    </string-array>
+    
+    <string-array name="shendiaoxialv">
+        <item>杨过</item>
+        <item>小龙女</item>
+    </string-array>
+    
+    <string-array name="shendiaoxialv_detail">
+        <item>姓杨名过字改之,黯然销魂掌,玉女素心剑法,全真剑法,蛤蟆功</item>
+        <item>玉女素心剑法,古墓派轻功,金铃锁、淑女剑、玉蜂针、白金丝掌套</item>
+    </string-array>
+    
+</resources>

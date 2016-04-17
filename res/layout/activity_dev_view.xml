@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <!-- title -->
+    <!-- 亮度 -->
+
+    <!-- 灯 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/applyGroupBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_blue"
+            android:text="申请群组" />
+
+        <Button
+            android:id="@+id/devJoinGroupBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_blue"
+            android:text="设备加入群组" />
+
+        <Button
+            android:id="@+id/addFriendBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_blue"
+            android:text="添加好友" />
+
+    </LinearLayout>
+
+    <!-- SeekBar -->
+
+    <!-- 按键 -->
+
+</LinearLayout>
